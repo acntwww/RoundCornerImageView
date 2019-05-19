@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+    <com.acnt.android.widgets.radius.RoundCornerImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/test"
+        app:fullRadius="15dp" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+
+        >
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/test"
+            app:topLeftRadius="20dp" />
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/test"
+            app:topRightRadius="20dp" />
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/test"
+            app:bottomRightRadius="20dp" />
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/test"
+            app:bottomLeftRadius="20dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="8dp"
+
+        >
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/test"
+            app:bottomLeftRadius="20dp"
+            app:topLeftRadius="20dp" />
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/test"
+            app:bottomLeftRadius="20dp"
+            app:topLeftRadius="20dp"
+            app:topRightRadius="20dp" />
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/test"
+            app:bottomLeftRadius="20dp"
+            app:bottomRightRadius="20dp"
+            app:topLeftRadius="20dp" />
+
+        <com.acnt.android.widgets.radius.RoundCornerImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginLeft="4dp"
+            android:src="@drawable/test"
+            app:bottomRightRadius="20dp"
+            app:topLeftRadius="20dp" />
+    </LinearLayout>
+
+    <com.acnt.android.widgets.radius.RoundCornerImageView
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_marginTop="10dp"
+        android:src="@drawable/test"
+        app:bottomLeftRadius="30dp"
+        app:bottomRightRadius="20dp"
+        app:topLeftRadius="10dp"
+        app:topRightRadius="15dp" />
+</LinearLayout>
